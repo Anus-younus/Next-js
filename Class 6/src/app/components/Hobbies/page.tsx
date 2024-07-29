@@ -1,17 +1,17 @@
-type HobiesProp ={
+type HobbiesType = {
     hobbies?:string[]
 }
-export default function Hobbies({ hobbies }: HobiesProp) {
+
+export default function Hobbies ({hobbies}:HobbiesType) {
     return (
         <>
-            <h1>Hobies</h1>
-            <ul>
-                {
-                    hobbies?.map((hobbie, i)=>(
-                        <li key={i}>{hobbie}</li>
-                    ))
-                }
-            </ul>
+        {
+            hobbies?.map((hobbie, i) => (
+                <ul key={i}>
+                    <li>{hobbie}</li>
+                </ul>
+            ))
+        }
         </>
     )
 }
