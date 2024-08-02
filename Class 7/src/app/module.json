@@ -1,0 +1,170 @@
+{
+    "users":[
+        {
+            "name":"Anus",
+            "email":"anusbandija@gmail.com",
+            "password":"anusanus",
+            "about":"He is developer he is currently learning next js beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+            "posts":[
+                {
+                    "title":"My favourite place",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                },
+                {
+                    "title":"My favourite sport",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":23
+                },
+                {
+                    "title":"My favourite subject",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                },
+                {
+                    "title":"My favourite country",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                },
+                {
+                    "title":"My favourite city",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                }
+            ]
+        },
+
+        {
+            "name":"Zian",
+            "email":"zian@gmail.com",
+            "password":"zian123",
+            "about":"He is developer he is currently learning next js beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+            "posts":[
+                {
+                    "title":"My favourite place",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                },
+                {
+                    "title":"My favourite sport",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":23
+                },
+                {
+                    "title":"My favourite subject",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                },
+                {
+                    "title":"My favourite country",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                },
+                {
+                    "title":"My favourite city",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                }
+            ]
+        },
+        {
+            "name":"Mannan",
+            "email":"mannan@gmail.com",
+            "password":"mannan123",
+            "about":"He is developer he is currently learning next js beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+            "posts":[
+                {
+                    "title":"My favourite place",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                },
+                {
+                    "title":"My favourite sport",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":23
+                },
+                {
+                    "title":"My favourite subject",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                },
+                {
+                    "title":"My favourite country",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                },
+                {
+                    "title":"My favourite city",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                }
+            ]
+        },
+        {
+            "name":"Owais",
+            "email":"owaisbandija@gmail.com",
+            "password":"owais123",
+            "about":"He is developer he is currently learning next js beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+            "posts":[
+                {
+                    "title":"My favourite place",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                },
+                {
+                    "title":"My favourite sport",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":23
+                },
+                {
+                    "title":"My favourite subject",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                },
+                {
+                    "title":"My favourite country",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                },
+                {
+                    "title":"My favourite city",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                }
+            ]
+        },
+        {
+            "name":"Hassan",
+            "email":"hassanbandija@gmail.com",
+            "password":"hassan123",
+            "about":"He is developer he is currently learning next js beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+            "posts":[
+                {
+                    "title":"My favourite place",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                },
+                {
+                    "title":"My favourite sport",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":23
+                },
+                {
+                    "title":"My favourite subject",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                },
+                {
+                    "title":"My favourite country",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                },
+                {
+                    "title":"My favourite city",
+                    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis id ut ipsa, enim quibusdam beatae eligendi repellendus, voluptatem perspiciatis quas optio fuga totam ab. Qui distinctio quidem accusantium deserunt fuga, cumque incidunt!",
+                    "likes":22
+                }
+            ]
+        }
+    ]
+}
