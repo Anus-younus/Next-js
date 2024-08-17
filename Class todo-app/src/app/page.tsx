@@ -1,59 +1,72 @@
-"use client";
+"use client"
 
-import TodoEdit from "@/components/todoBox";
-import TodoInput from "@/components/NewTodoInput";
-import TodoList from "@/components/AllTodos";
-import { useEffect, useState } from "react";
+import TodoBox from "@/components/all-todos"
+import ErrorComp from "@/components/error-component"
+import TodoInput from "@/components/todo-input"
+import ToggleInput from "@/components/toggle-todo-input"
+import { useState } from "react"
 
 export default function Home() {
-    const [todos, setTodos] = useState<string[]>([]);
+  const [todos, setTodos] = useState(["apple", "book", "cat", "dog"])
+  const [edit, setEdit] = useState(-1)
+  const [newTodo, setNewTodo] = useState('')
+  const [error, setError] = useState(false)
 
-    const [editIndex, setEditIndex] = useState(-1);
+  const handleAdd = (todo: string) => {
+    let todosClone = [...todos, todo]
+    setTodos([...todosClone])
+  }
 
-    const addNewTodo = (newTodo: string) => {
-        console.log("New Todo:", newTodo);
-        setTodos([...todos, newTodo]);
+  const handleDelete = (index: number) => {
+    let todosClone = [...todos]
+    todosClone.splice(index, 1)
+    setTodos([...todosClone])
+  }
+
+  const handleSave = (todo: string) => {
+    let cloneTodos = [...todos]
+    cloneTodos.splice(edit, 1, todo)
+    setNewTodo(todo)
+    setTodos(cloneTodos)
+    setEdit(-1)
+
+  }
+
+
+  const handleEdit = (index: number) => {
+    if (edit !== -1) {
+      setError(true)
+      setTimeout(() => {
+        setError(false)
+      }, 1000)
+      return
     }
+    setNewTodo(todos[index])
+    setEdit(index)
 
-    const deleteTodo = (todoIndex: number) => {
-        let todosClone = [...todos];
-        todosClone.splice(todoIndex, 1);
-        setTodos([...todosClone]);
-    }
-
-    const saveEditedTodo = (updatedTodo: string) => {
-        console.log(updatedTodo);
-        let todosClone = [...todos];
-        todosClone.splice(editIndex, 1, updatedTodo);
-        setTodos([...todosClone]);
-        setEditIndex(-1);
-    }
-
-
-    useEffect(() => {
-        console.log("Todos List: ", todos);
-    }, [todos])
-
-    return (
-        <>
-
-            {
-                editIndex === -1 ?
-                    <TodoInput
-                        addNewTodo={addNewTodo}
-                    /> :
-                    <TodoEdit
-                        editedTodo={todos[editIndex]}
-                        saveEditedTodo={saveEditedTodo}
-                    />
-
-            }
-
-            <TodoList
-                todos={todos}
-                deleteTodo={deleteTodo}
-                setEditIndex={setEditIndex}
-            />
-        </>
-    )
+  }
+  return (
+    <>
+      {
+        edit === -1 ?
+          <TodoInput
+            handleAdd={handleAdd}
+          /> :
+          <ToggleInput
+            handleSave={handleSave}
+            newTodo={newTodo}
+          />
+      }
+      {
+        error === true ?
+          <ErrorComp />
+          : ""
+      }
+      <TodoBox
+        todos={todos}
+        handleDelete={handleDelete}
+        handleEdit={handleEdit}
+      />
+    </>
+  )
 }
