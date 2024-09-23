@@ -1,4 +1,4 @@
-import { getFirestore, doc, setDoc, collection, addDoc } from 'firebase/firestore'
+import { getFirestore, doc, setDoc, collection, addDoc, where, query, getDocs } from 'firebase/firestore'
 import { app } from './firebaseConfig'
 import { TodoType, UserType } from '@/Types/UserType'
 import auth from './firebaseAuth'
@@ -21,6 +21,26 @@ export const createTodo = async (todo: string) => {
         await addDoc(collectionRef, { todo, uid })
     } catch (error) {
 
+    }
+}
+
+export const fetchTodos = async () => {
+    try {
+        const uid = localStorage.getItem('uid')
+        const collectionRef = collection(db, "todos")
+        const condition = where('uid', '==', uid)
+        const q = query(collectionRef, condition)
+        const snapshot = await getDocs(q)
+        const todos = snapshot.docs
+       const allTodos = todos.map((todo) => {
+            let todoData = todo.data()
+            todoData.id = todo.id
+            return todoData
+       })
+       return allTodos
+        
+    } catch (e) {
+        
     }
 }
 

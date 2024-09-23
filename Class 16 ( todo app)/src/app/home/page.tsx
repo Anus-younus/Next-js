@@ -1,7 +1,7 @@
 "use client"
 
 import auth, { handleLogout } from "@/firebase/firebaseAuth"
-import { createTodo } from "@/firebase/firebaseDb"
+import db, { createTodo } from "@/firebase/firebaseDb"
 import { useState } from "react"
 
 export default function Main() {
