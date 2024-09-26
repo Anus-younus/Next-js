@@ -12,7 +12,7 @@ export const handleSignUp = (name: string, rollNumber: string, email: string, pa
             console.log(user);
             handleVerify()
             // ...
-            createUser({studentName: name, rollNumber, email, uid: user.uid})
+            createUser({studentName: name, rollNumber, email, uid: user.uid, isVerify: false})
         })
         .catch((error) => {
             const errorCode = error.code;

@@ -15,14 +15,13 @@ export default function AuthContextProvider({ children }: { children: React.Reac
     onAuthStateChanged(auth, (user) => {
         if(!user) {
             router.push('/')
-            localStorage.setItem('uid', "")
         } else {
-            if(user.emailVerified) {
-                router.push('/home')
-                localStorage.setItem('uid', user.uid)
-            } else {
+            // if(user.emailVerified) {
+            //     router.push('/home')
+            //     localStorage.setItem('uid', user.uid)
+            // } else {
                 router.push('/verify')
-            }
+            // }
         }
     })
     return (
